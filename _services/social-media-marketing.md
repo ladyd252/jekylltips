@@ -1,4 +1,4 @@
 ---
 title: Social Media Marketing
-image_path: /butterfly.png
+image_path: /balloons.png
 ---
