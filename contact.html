@@ -27,3 +27,12 @@ title: Contact
         </div>
     </div>
 </section>
+
+<script>
+  var markers = [
+    {% for location in site.data.office_locations %}
+      ['{{ location.name }}', {{ location.latitude }}, {{ location.longitude }}]
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+</script>
